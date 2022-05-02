@@ -6,9 +6,6 @@ numbers = [int(i) for i in n]
 x = numbers[0]
 y = numbers[1]
 
-print(x, y)
-
-
 
 
 if y > x or len(numbers)>2 :
