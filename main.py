@@ -9,7 +9,7 @@ y = numbers[1]
 
 
 
-if y > x:
+if y > x or len(numbers)>2 :
     print(0)
 elif y == 1 or y == x: print(1)
 else:
