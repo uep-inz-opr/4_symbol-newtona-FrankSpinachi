@@ -1,10 +1,12 @@
 import math
 
 n = str(input())
-n = n.split()
+n = n.split(' ')
 numbers = [int(i) for i in n]
 x = numbers[0]
 y = numbers[1]
+
+print(x, y)
 
 
 
