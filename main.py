@@ -14,6 +14,6 @@ elif y == 1 or y == x: print(1)
 else:
     a = math.factorial(x)
     b = math.factorial(y)
-    div = a // (b*(x-y))
+    div = a / (b*(x-y))
     print(div)
 
